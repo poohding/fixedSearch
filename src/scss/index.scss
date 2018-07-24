@@ -5,6 +5,18 @@ html, body {
     background-color: #eee;
 }
 
+.container {
+    max-width: 640px;
+}
+
+form {
+    display: block;
+}
+
+input {
+    display: block;
+}
+
 img {
     max-width: 100%;
     display: block;
@@ -12,6 +24,7 @@ img {
 
 input {
     width: 100%;
+    max-width: 640px;
     padding: 20px;
     box-sizing: border-box;
     position: fixed;
